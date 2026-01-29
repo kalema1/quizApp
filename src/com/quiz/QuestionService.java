@@ -12,6 +12,10 @@ public class QuestionService {
         questions[4] = new Question(5, "size of boolean", "1", "2", "4", "8", "1");
     }
 
-    public void displayQuestion() {}
+    public void displayQuestion() {
+        for(Question q: questions) {
+            System.out.println(q);
+        }
+    }
 
 }

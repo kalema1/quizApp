@@ -12,7 +12,7 @@ public class Question {
     private String opt3;
     private String opt4;
 
-    public Question(int id, String question, String answer, String opt1, String opt2, String opt3, String opt4) {
+    public Question(int id, String question,  String opt1, String opt2, String opt3, String opt4,String answer) {
         this.id = id;
         this.question = question;
         this.answer = answer;

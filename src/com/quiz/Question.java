@@ -1,6 +1,9 @@
 package com.quiz;
 
 public class Question {
+    /*
+     * what do questions have? qnid, list of options, correct ans, question
+     * */
     private int id;
     private String question;
     private String answer;

@@ -4,4 +4,6 @@ public class QuestionService {
 // create the Question array
     Question[] question = new Question[5];
 
+    public void displayQuestion() {}
+
 }
